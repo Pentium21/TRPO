@@ -17,7 +17,7 @@ bool set_horse(int x, int y)
 	if (desk[x][y] != 0)
 		return false;
 
-	n++;
+	n++;jk
 	desk[x][y] = n;
 
 	if (n == DS * DS)
